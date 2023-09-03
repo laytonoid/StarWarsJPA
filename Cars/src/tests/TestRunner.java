@@ -13,15 +13,15 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
     public static void main(String[] args) {
-        // Run TestCar class
+        // Run the TestCar clas
         Result result = JUnitCore.runClasses(TestCar.class);
         
-        // Print out any failures
+        // Prints out failures
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }
 
-        // Print out if all tests were successful
+        // Print out if test is successful
         System.out.println(result.wasSuccessful());
     }
 }

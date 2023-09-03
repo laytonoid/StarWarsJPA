@@ -14,6 +14,6 @@ public class CarDealer {
     }
     
     public double calculatePriceAfterTax(Car car) {
-        return car.getPrice() * 1.1; // Assuming a 10% tax
+        return car.getPrice() * 1.1; // 10% tax rate
     }
 }
